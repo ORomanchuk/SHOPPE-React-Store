@@ -1,0 +1,26 @@
+.newProducts {
+  margin-top: 64px;
+}
+.newProducts .header {
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 39px;
+}
+.newProducts .header h2 {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 43px;
+  color: #000000;
+}
+.newProducts .header a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #A18A68;
+}
+.newProducts .products {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=newproducts.css.map */

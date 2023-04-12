@@ -1,0 +1,49 @@
+.privacy {
+  padding: 125px 50px;
+}
+.privacy h2 {
+  font-weight: 500;
+  font-size: 33px;
+  text-align: center;
+  line-height: 43px;
+  color: #000000;
+  margin-bottom: 39px;
+}
+.privacy p {
+  width: 80%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+  text-align: start;
+  margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.privacy h3 {
+  width: 80%;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26px;
+  color: #000000;
+  text-align: start;
+  margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.privacy ul {
+  width: 80%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  text-align: start;
+  margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.privacy ul li {
+  margin-bottom: 16px;
+}
+
+/*# sourceMappingURL=privacy.css.map */

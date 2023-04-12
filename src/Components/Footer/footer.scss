@@ -1,0 +1,82 @@
+footer {
+  margin-top: 20px;
+  .footerData {
+    height: 105px;
+    padding-top: 55px;
+    border-top: 1px solid #D8D8D8;
+    justify-content: space-between;
+    .siteMap {
+      width: 50%;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: start;
+      .links {
+        width: 90%;
+        max-width: 486px;
+        justify-content: space-between;
+        a {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 27px;
+          color: #707070;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #000000;
+        margin: 0;
+        a {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 27px;
+          color: #707070;
+        }
+      }
+    }
+    .social {
+      width: 50%;
+      flex-direction: column;
+      align-items: end;
+      justify-content: space-between;
+      input {
+        width: 90%;
+        height: 39px;
+        max-width: 400px;
+        border: none;
+        border-bottom: 1px solid #000000;
+        background-image: url("../../Img/subscribeArrow.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: px
+      }
+      input:active {
+        outline: 0;
+        outline-offset: 0;
+      }
+      input:focus {
+        outline: 0;
+        outline-offset: 0;
+      }
+      input::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 39px;
+        color: #707070;
+      }
+      .socialButtons {
+        width: 160px;
+        justify-content: space-between;
+        a {
+          svg:hover {
+            path {
+              fill: #002f50;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.newProducts {
+  margin-top: 64px;
+  .header {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 39px;
+    h2 {
+      font-weight: 500;
+      font-size: 33px;
+      line-height: 43px;
+      color: #000000;
+    }
+    a {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+      color: #A18A68;
+    }
+  }
+  .products {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

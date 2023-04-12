@@ -1,0 +1,36 @@
+.notFound {
+  height: calc(100vh - 349px);
+  align-items: center;
+  .error {
+    width: 436px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    h2 {
+      font-weight: 500;
+      font-size: 33px;
+      line-height: 43px;
+      color: #000000;
+      margin-bottom: 24px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      color: #707070;
+      margin-bottom: 64px;
+    }
+    button {
+      cursor: pointer;
+      width: 187px;
+      height: 53px;
+      background-color: white;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 21px;
+      color: #000000;
+    }
+  }
+}

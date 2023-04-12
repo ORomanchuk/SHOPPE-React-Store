@@ -1,0 +1,101 @@
+header {
+  justify-content: space-between;
+  height: 40px;
+}
+header .headerLogo {
+  height: 40px;
+}
+header .menu {
+  justify-content: space-between;
+}
+header .menu .navigation {
+  min-width: 250px;
+  justify-content: space-between;
+}
+header .menu .navigation a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #000000;
+}
+header .menu hr {
+  border: 1px solid #707070;
+  height: 17px;
+  margin: auto 48px;
+}
+header .menu .userMenu {
+  min-width: 100px;
+  justify-content: space-between;
+}
+header .menu .userMenu a {
+  height: 20px;
+  margin: auto 0;
+}
+header .menu .userMenu a img {
+  width: 20px;
+}
+
+.headerSearch {
+  width: 0;
+  height: 40px;
+  transition: 0.5s;
+  background-color: transparent;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  padding-left: 20px;
+}
+
+.headerSearch::-webkit-search-cancel-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.headerSearch:active {
+  width: 150px;
+  height: 40px;
+  outline: 0;
+  outline-offset: 0;
+  padding-left: 30px;
+  transition: 0.3s;
+}
+
+.headerSearch:focus {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  outline: 0;
+  outline-offset: 0;
+  padding-left: 30px;
+  transition: 0.3s;
+}
+
+.headerSearch::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  transition: 0.3s;
+}
+
+.headerSearch:active::placeholder {
+  transition: 0.3s;
+}
+
+.headerSearch:focus::placeholder {
+  transition: 0.3s;
+  border-bottom: 1px solid #000000;
+}
+
+.searchBtn {
+  background-image: url(../../Img/search.png);
+  background-position-y: center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=header.css.map */

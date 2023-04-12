@@ -1,0 +1,80 @@
+footer {
+  margin-top: 20px;
+}
+footer .footerData {
+  height: 105px;
+  padding-top: 55px;
+  border-top: 1px solid #D8D8D8;
+  justify-content: space-between;
+}
+footer .footerData .siteMap {
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+footer .footerData .siteMap .links {
+  width: 90%;
+  max-width: 486px;
+  justify-content: space-between;
+}
+footer .footerData .siteMap .links a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #707070;
+}
+footer .footerData .siteMap p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0;
+}
+footer .footerData .siteMap p a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #707070;
+}
+footer .footerData .social {
+  width: 50%;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+}
+footer .footerData .social input {
+  width: 90%;
+  height: 39px;
+  max-width: 400px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  background-image: url("../../Img/subscribeArrow.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: px;
+}
+footer .footerData .social input:active {
+  outline: 0;
+  outline-offset: 0;
+}
+footer .footerData .social input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+footer .footerData .social input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  color: #707070;
+}
+footer .footerData .social .socialButtons {
+  width: 160px;
+  justify-content: space-between;
+}
+footer .footerData .social .socialButtons a svg:hover path {
+  fill: #002f50;
+}
+
+/*# sourceMappingURL=footer.css.map */
