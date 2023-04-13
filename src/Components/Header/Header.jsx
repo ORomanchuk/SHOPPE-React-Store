@@ -5,7 +5,7 @@ import "./header.css";
 const Header = () => {
     return (
         <header className="header flexible">
-            <a href="/"><img className="headerLogo" src={logo} alt=""/></a>
+            <a href="/SHOPPE-React-Store"><img className="headerLogo" src={logo} alt=""/></a>
             <div className="menu flexible">
                 <nav className="navigation flexible">
                     <a className="nav-shop" href="#">Shop</a>

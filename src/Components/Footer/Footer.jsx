@@ -5,11 +5,11 @@ const Footer = () => {
             <div className="footerData flexible">
                 <div className="siteMap flexible">
                     <div className="links flexible">
-                        <a href="/contacts">CONTACT</a>
-                        <a href="/terms-of-service">TERMS OF SERVICES</a>
-                        <a href="/shipping-and-returns">SHIPPING AND RETURNS</a>
+                        <a href="/SHOPPE-React-Store/contacts">CONTACT</a>
+                        <a href="/SHOPPE-React-Store/terms-of-service">TERMS OF SERVICES</a>
+                        <a href="/SHOPPE-React-Store/shipping-and-returns">SHIPPING AND RETURNS</a>
                     </div>
-                    <p>© 2023 Shelly. <a href="/terms-of-service"> Terms of use</a> and <a href="/privacy-policy">privacy policy.</a> </p>
+                    <p>© 2023 Shelly. <a href="/SHOPPE-React-Store/terms-of-service"> Terms of use</a> and <a href="/SHOPPE-React-Store/privacy-policy">privacy policy.</a> </p>
                 </div>
                 <div className="social flexible">
                     <input type="text" className="subscribe" placeholder="Give an email, get the newsletter."/>
