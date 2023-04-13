@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SHOPPE-React-Store/static/css/main.bb0478e0.css",
-    "main.js": "/SHOPPE-React-Store/static/js/main.6756c3a4.js",
+    "main.js": "/SHOPPE-React-Store/static/js/main.474ba797.js",
     "static/media/slider.png": "/SHOPPE-React-Store/static/media/slider.04dbcede7a9a04ebb500.png",
     "static/media/slick.svg": "/SHOPPE-React-Store/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/SHOPPE-React-Store/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,10 +9,10 @@
     "static/media/slick.woff": "/SHOPPE-React-Store/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SHOPPE-React-Store/index.html",
     "main.bb0478e0.css.map": "/SHOPPE-React-Store/static/css/main.bb0478e0.css.map",
-    "main.6756c3a4.js.map": "/SHOPPE-React-Store/static/js/main.6756c3a4.js.map"
+    "main.474ba797.js.map": "/SHOPPE-React-Store/static/js/main.474ba797.js.map"
   },
   "entrypoints": [
     "static/css/main.bb0478e0.css",
-    "static/js/main.6756c3a4.js"
+    "static/js/main.474ba797.js"
   ]
 }
