@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/SHOPPE-React-Store/static/css/main.bb0478e0.css",
-    "main.js": "/SHOPPE-React-Store/static/js/main.a76c7db0.js",
+    "main.css": "/SHOPPE-React-Store/static/css/main.84aaa128.css",
+    "main.js": "/SHOPPE-React-Store/static/js/main.ccefb43d.js",
     "static/media/slider.png": "/SHOPPE-React-Store/static/media/slider.04dbcede7a9a04ebb500.png",
     "static/media/slick.svg": "/SHOPPE-React-Store/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/SHOPPE-React-Store/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/SHOPPE-React-Store/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SHOPPE-React-Store/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SHOPPE-React-Store/index.html",
-    "main.bb0478e0.css.map": "/SHOPPE-React-Store/static/css/main.bb0478e0.css.map",
-    "main.a76c7db0.js.map": "/SHOPPE-React-Store/static/js/main.a76c7db0.js.map"
+    "main.84aaa128.css.map": "/SHOPPE-React-Store/static/css/main.84aaa128.css.map",
+    "main.ccefb43d.js.map": "/SHOPPE-React-Store/static/js/main.ccefb43d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb0478e0.css",
-    "static/js/main.a76c7db0.js"
+    "static/css/main.84aaa128.css",
+    "static/js/main.ccefb43d.js"
   ]
 }
