@@ -1,15 +1,16 @@
 import "./footer.css";
+import {Link} from "react-router-dom";
 const Footer = () => {
     return (
         <footer>
             <div className="footerData flexible">
                 <div className="siteMap flexible">
                     <div className="links flexible">
-                        <a href="/SHOPPE-React-Store/contacts">CONTACT</a>
-                        <a href="/SHOPPE-React-Store/terms-of-service">TERMS OF SERVICES</a>
-                        <a href="/SHOPPE-React-Store/shipping-and-returns">SHIPPING AND RETURNS</a>
+                        <Link to="/SHOPPE-React-Store/contacts">CONTACT</Link>
+                        <Link to="/SHOPPE-React-Store/terms-of-service">TERMS OF SERVICES</Link>
+                        <Link to="/SHOPPE-React-Store/shipping-and-returns">SHIPPING AND RETURNS</Link>
                     </div>
-                    <p>© 2023 Shelly. <a href="/SHOPPE-React-Store/terms-of-service"> Terms of use</a> and <a href="/SHOPPE-React-Store/privacy-policy">privacy policy.</a> </p>
+                    <p>© 2023 Shelly. <Link to="/SHOPPE-React-Store/terms-of-service"> Terms of use</Link> and <Link to="/SHOPPE-React-Store/privacy-policy">privacy policy.</Link> </p>
                 </div>
                 <div className="social flexible">
                     <input type="text" className="subscribe" placeholder="Give an email, get the newsletter."/>

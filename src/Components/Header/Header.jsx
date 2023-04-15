@@ -2,10 +2,11 @@ import logo from "../../Img/main-logo.png";
 import cart from "../../Img/cart.png";
 import user from "../../Img/user.png";
 import "./header.css";
+import {Link} from "react-router-dom";
 const Header = () => {
     return (
         <header className="header flexible">
-            <a href="/SHOPPE-React-Store"><img className="headerLogo" src={logo} alt=""/></a>
+            <Link to="/SHOPPE-React-Store"><img className="headerLogo" src={logo} alt=""/></Link>
             <div className="menu flexible">
                 <nav className="navigation flexible">
                     <a className="nav-shop" href="#">Shop</a>

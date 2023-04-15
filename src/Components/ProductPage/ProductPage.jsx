@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ProductSlider from "./ProductSlider";
+import ProductRote from "../ProductRote/ProductRote";
 
 const ProductPage = () => {
 
@@ -57,9 +58,7 @@ const ProductPage = () => {
                 <p className="SKU"><span>SKU: </span>{product.left}</p>
                 <p className="productCategory"><span>Categories: </span>{product.category}</p>
             </div>
-            <div className="productInformation">
-                <div className="informationButtons"></div>
-            </div>
+            <ProductRote/>
         </div>
     )
 }

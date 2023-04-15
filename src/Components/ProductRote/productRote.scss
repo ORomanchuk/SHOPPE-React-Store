@@ -1,0 +1,51 @@
+.productRote {
+  margin-top: 99px;
+  .informationButtons {
+    button {
+      border: none;
+      background-color: transparent;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      color: #707070;
+      margin-right: 96px;
+    }
+  }
+  hr {
+    margin-top: 34px;
+    width: 100%;
+    border: 1px solid #D8D8D8;
+  }
+  .dataBox {
+    margin-top: 39px;
+    .productDescriptionRote {
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #707070;
+      }
+    }
+    .productAdditionalRote {
+      padding-left: unset;
+      li {
+        list-style: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #000000;
+        p {
+          display: inline;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 27px;
+          color: #707070;
+          margin-left: 15px;
+        }
+      }
+    }
+    .productReviewsRote {
+
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.productRote {
+  margin-top: 99px;
+}
+.productRote .informationButtons button {
+  border: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #707070;
+  margin-right: 96px;
+}
+.productRote hr {
+  margin-top: 34px;
+  width: 100%;
+  border: 1px solid #D8D8D8;
+}
+.productRote .dataBox {
+  margin-top: 39px;
+}
+.productRote .dataBox .productDescriptionRote p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #707070;
+}
+.productRote .dataBox .productAdditionalRote {
+  padding-left: unset;
+}
+.productRote .dataBox .productAdditionalRote li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+}
+.productRote .dataBox .productAdditionalRote li p {
+  display: inline;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #707070;
+  margin-left: 15px;
+}
+
+/*# sourceMappingURL=productRote.css.map */

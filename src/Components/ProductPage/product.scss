@@ -1,6 +1,7 @@
 .productPage {
   padding: 125px 50px;
   justify-content: space-between;
+  flex-wrap: wrap;
   .gallery {
     width: 56%;
     .product__slider {
