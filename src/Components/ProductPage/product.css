@@ -147,4 +147,15 @@
   margin-right: 16px;
 }
 
+.Similar h2 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  color: #000000;
+  margin-bottom: 47px;
+}
+.Similar .similarProducts {
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=product.css.map */

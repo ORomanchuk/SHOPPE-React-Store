@@ -9,9 +9,9 @@ const Header = () => {
             <Link to="/SHOPPE-React-Store"><img className="headerLogo" src={logo} alt=""/></Link>
             <div className="menu flexible">
                 <nav className="navigation flexible">
-                    <a className="nav-shop" href="#">Shop</a>
-                    <a className="nav-blog" href="#">Blog</a>
-                    <a className="nav-story" href="#">Our Story</a>
+                    <Link to="/SHOPPE-React-Store/catalog" className="nav-shop">Shop</Link>
+                    <Link to="/SHOPPE-React-Store/blog" className="nav-blog">Blog</Link>
+                    <Link to="/SHOPPE-React-Store/about" className="nav-story">Our Story</Link>
                 </nav>
                 <hr/>
                 <div className="userMenu flexible">

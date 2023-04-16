@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ProductSlider from "./ProductSlider";
 import ProductRote from "../ProductRote/ProductRote";
+import Similar from "./similar";
 
 const ProductPage = () => {
 
     const [product, setProduct] = useState('');
-    const [isProductInCart, setIsProductInCart] = useState(false);
     let { productId } = useParams();
 
     useEffect(() => {
@@ -59,6 +59,7 @@ const ProductPage = () => {
                 <p className="productCategory"><span>Categories: </span>{product.category}</p>
             </div>
             <ProductRote/>
+            <Similar/>
         </div>
     )
 }

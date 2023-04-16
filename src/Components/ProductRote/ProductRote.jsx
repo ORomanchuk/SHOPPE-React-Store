@@ -2,6 +2,7 @@ import "./productRote.css";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import {useParams} from "react-router-dom";
+import Review from "./review";
 const ReactDOM = require('react-dom/client');
 
 const ProductRote = () => {
@@ -42,9 +43,7 @@ const ProductRote = () => {
     }
     function ShowReviews() {
         data = <>
-            <div className="productReviewsRote">
-
-            </div>
+            <Review/>
         </>;
         ReactDOM.createRoot(
             document.getElementById('data')
@@ -56,7 +55,7 @@ const ProductRote = () => {
             <div className="informationButtons flexible">
                 <button onClick={ShowDescription}>Description</button>
                 <button onClick={ShowAdditional}>Additional information</button>
-                <button onClick={ShowReviews}>Reviews(5)</button>
+                <button onClick={ShowReviews}>Reviews</button>
             </div>
             <hr/>
             <div className="dataBox" id="data">
