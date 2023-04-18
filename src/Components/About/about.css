@@ -1,3 +1,60 @@
-
+.about {
+  padding: 125px 50px;
+}
+.about h2 {
+  font-weight: 500;
+  font-size: 33px;
+  text-align: center;
+  line-height: 43px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.about h3 {
+  display: block;
+  max-width: 670px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  color: #000000;
+  margin-bottom: 46px;
+}
+.about h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 23px;
+}
+.about p {
+  display: block;
+  max-width: 670px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 39px;
+}
+.about img {
+  display: block;
+  max-width: 670px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
+}
+.about ul {
+  display: block;
+  max-width: 670px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about li {
+  margin-left: 10px;
+}
 
 /*# sourceMappingURL=about.css.map */

@@ -1,7 +1,8 @@
 import "./newproducts.css";
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ProductCard from "../ProductCard/ProductCard";
+import {Link} from "react-router-dom";
 
 const NewProducts = () => {
 
@@ -26,7 +27,7 @@ const NewProducts = () => {
         <div className="newProducts">
             <div className="header flexible">
                 <h2>Shop The Latest</h2>
-                <a href="#">View All</a>
+                <Link to="/SHOPPE-React-Store/catalog">View All</Link>
             </div>
             <div className="products flexible">
                 {

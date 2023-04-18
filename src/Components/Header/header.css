@@ -1,41 +1,52 @@
-header {
+section {
+  width: 100%;
+  background-color: white;
+}
+section header {
+  width: 88%;
+  position: fixed;
+  z-index: 5;
   justify-content: space-between;
+  height: 120px;
+  background-color: white;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #D8D8D8;
+}
+section header .headerLogo {
+  margin-top: 64px;
   height: 40px;
 }
-header .headerLogo {
-  height: 40px;
-}
-header .menu {
+section header .menu {
+  margin-top: 64px;
   justify-content: space-between;
 }
-header .menu .navigation {
+section header .menu .navigation {
   min-width: 250px;
   justify-content: space-between;
 }
-header .menu .navigation a {
+section header .menu .navigation a {
   font-weight: 400;
   font-size: 16px;
-  line-height: 40px;
+  line-height: 56px;
   color: #000000;
 }
-header .menu hr {
+section header .menu hr {
   border: 1px solid #707070;
   height: 17px;
   margin: auto 48px;
 }
-header .menu .userMenu {
+section header .menu .userMenu {
   min-width: 100px;
   justify-content: space-between;
 }
-header .menu .userMenu a {
+section header .menu .userMenu a {
   height: 20px;
   margin: auto 0;
 }
-header .menu .userMenu a img {
+section header .menu .userMenu a img {
   width: 20px;
 }
-
-.headerSearch {
+section .headerSearch {
   width: 0;
   height: 40px;
   transition: 0.5s;
@@ -47,14 +58,12 @@ header .menu .userMenu a img {
   color: #000000;
   padding-left: 20px;
 }
-
-.headerSearch::-webkit-search-cancel-button {
+section .headerSearch::-webkit-search-cancel-button {
   display: none;
   width: 0;
   height: 0;
 }
-
-.headerSearch:active {
+section .headerSearch:active {
   width: 150px;
   height: 40px;
   outline: 0;
@@ -62,8 +71,7 @@ header .menu .userMenu a img {
   padding-left: 30px;
   transition: 0.3s;
 }
-
-.headerSearch:focus {
+section .headerSearch:focus {
   width: 150px;
   height: 40px;
   border-radius: 8px;
@@ -72,30 +80,29 @@ header .menu .userMenu a img {
   padding-left: 30px;
   transition: 0.3s;
 }
-
-.headerSearch::placeholder {
+section .headerSearch::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   color: #000000;
   transition: 0.3s;
 }
-
-.headerSearch:active::placeholder {
+section .headerSearch:active::placeholder {
   transition: 0.3s;
 }
-
-.headerSearch:focus::placeholder {
+section .headerSearch:focus::placeholder {
   transition: 0.3s;
   border-bottom: 1px solid #000000;
 }
-
-.searchBtn {
+section .searchBtn {
   background-image: url(../../Img/search.png);
   background-position-y: center;
   background-size: 20px;
   background-repeat: no-repeat;
   cursor: pointer;
+}
+section .fakeHeader {
+  height: 120px;
 }
 
 /*# sourceMappingURL=header.css.map */

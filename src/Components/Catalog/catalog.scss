@@ -1,0 +1,23 @@
+.catalogPage {
+  margin-top: 50px;
+  h3 {
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 43px;
+    color: #000000;
+  }
+  .catalog {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+     .filter {
+       width: 21%;
+     }
+     .goods {
+       width: 76%;
+       flex-wrap: wrap;
+       justify-content: space-between;
+     }
+   }
+
+}

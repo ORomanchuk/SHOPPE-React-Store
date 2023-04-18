@@ -2,6 +2,35 @@
   width: 30%;
   height: 35vw;
   .productImage {
+    position: relative;
+    .discount {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 46px;
+      height: 24px;
+      background: #A18A68;
+      border-radius: 4px;
+    }
+    .outStock {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 63px;
+      height: 24px;
+      background: #A18A68;
+      border-radius: 4px;
+    }
     img {
       width: 100%;
       border-radius: 8px;
@@ -20,6 +49,9 @@
       position: relative;
       bottom: 65px;
       transition: 0.1s;
+    }
+    .soldOutBtn {
+      color: gray;
     }
   }
   .productImage:hover button{

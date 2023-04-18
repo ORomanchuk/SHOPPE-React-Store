@@ -1,78 +1,98 @@
 import "./blog.css";
+import img1 from "../../Img/blog1.png";
+import img2 from "../../Img/blog2.png";
+import img3 from "../../Img/blog3.png";
+import img4 from "../../Img/blog4.png";
 import React, {useState} from "react";
+import StarRatings from "react-star-ratings";
+import {Link} from "react-router-dom";
 const BlogPage = () => {
     const [articleList, setArticles] = useState([
         {
-            "name": "Maria Silva",
-            "review": "Este livro é simplesmente incrível! A escrita é envolvente e a trama é cativante. Eu não conseguia parar de ler até chegar ao fim.",
-            "rate": 4,
-            "country": "Portugal",
-            "date": "Jun 25 2023"
+            "id": "1",
+            "photo": img1,
+            "category": "Fashion",
+            "date": " Oct 8, 2022",
+            "title": "Top Trends From Spring",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  faucibus augue, a maximus elit ex vitae libero... "
         },
         {
-            "name": "Marco Rossi",
-            "review": "Questa compagnia di viaggi ha organizzato un'esperienza fantastica per me e la mia famiglia. Siamo stati molto soddisfatti del nostro tour e dei servizi offerti.",
-            "rate": 5,
-            "country": "Italy",
-            "date": "Dec 15 2022"
+            "id": "2",
+            "photo": img2,
+            "category": "Fashion",
+            "date": " Oct 8, 2022",
+            "title": "Top Trends From Spring",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  faucibus augue, a maximus elit ex vitae libero... "
         },
         {
-            "name": " Katrin Schmidt",
-            "review": "Ich bin begeistert von diesem Restaurant! Das Essen war unglaublich lecker und der Service war hervorragend.",
-            "rate": 4,
-            "country": "Germany",
-            "date": "Sep 30 2022"
+            "id": "3",
+            "photo": img3,
+            "category": "Fashion",
+            "date": " Oct 8, 2022",
+            "title": "Top Trends From Spring",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  faucibus augue, a maximus elit ex vitae libero... "
         },
         {
-            "name": "Jean-Pierre Dupont",
-            "review": "Je suis très satisfait de la qualité de ce produit. Il répond parfaitement à mes besoins et fonctionne très bien.",
-            "rate": 5,
-            "country": "France",
-            "date": "Jul 02 2022"
-        },
-        {
-            "name": "Ana Gómez",
-            "review": "Me encantó el servicio al cliente de esta tienda en línea. El personal fue muy amable y servicial, y el envío fue rápido y sin complicaciones.",
-            "rate": 4,
-            "country": "Spain",
-            "date": "Mar 18 2022"
+            "id": "4",
+            "photo": img4,
+            "category": "Fashion",
+            "date": " Oct 8, 2022",
+            "title": "Top Trends From Spring",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  faucibus augue, a maximus elit ex vitae libero... "
         }
+    ]);
+
+    const [blogCategories, setBlogCategories] = useState([
+        {
+            "key": "fashion",
+            "name": "Fashion"
+        },
+        {
+            "key": "style",
+            "name": "Style"
+        },
+        {
+            "key": "accessories",
+            "name": "Accessories"
+        },
+        {
+            "key": "season",
+            "name": "Season"
+        },
     ])
 
-    // const [current, setCurrent] = useState ('');
-    // const [name, setName] = useState ('');
-    // const [mail, setMail] = useState ('');
-    // const currentReviewHandler = (e) => {
-    //     let newValue = e.target.value;
-    //     setCurrent(newValue)
-    // }
-    //
-    // const currentNameHandler = (e) => {
-    //     let newValue = e.target.value;
-    //     setName(newValue)
-    // }
-    //
-    // const currentMailHandler = (e) => {
-    //     let newValue = e.target.value;
-    //     setMail(newValue)
-    // }
-    //
-    // let currentDate = new Date()
-    // const addNewReview = () => {
-    //     const newReviews = {
-    //         name: name,
-    //         review: current,
-    //         date: currentDate.toDateString,
-    //         rate: 5
-    //     }
-    //     setReviews([...list, newReviews]);
-    //     setName('')
-    //     setCurrent('')
-    // }
-    // let reviewsNumber = list.length;
 
     return (
         <div className="blog">
+            <h2>Blog</h2>
+            <section className="flexible">
+                <aside>
+                    <div className="blogSearch">
+                        <input type="search" placeholder="Search..."/>
+                    </div>
+                    <div className="blogCategories">
+                        <h3>Categories</h3>
+                        {blogCategories.map(element =>
+                            <a href="#">{element.name}</a>
+                        )}
+                    </div>
+                </aside>
+                <div className="blogContent">
+                    {articleList.map(element =>
+                        <div className="blogCard">
+                            <Link to="/SHOPPE-React-Store/blog/article">
+                                <img src={element.photo} alt=""/>
+                            </Link>
+                            <p className="category">{element.category} - {element.date}</p>
+                            <h4 className="title">{element.title}</h4>
+                            <p className="description">{element.description}</p>
+                            <Link to="/SHOPPE-React-Store/blog/article">
+                                <p className="readLink">Read More</p>
+                            </Link>
+                        </div>
+                    )}
+                </div>
+            </section>
 
         </div>
     )

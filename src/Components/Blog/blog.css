@@ -1,3 +1,176 @@
+.blog {
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.blog h2 {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 43px;
+  color: #000000;
+}
+.blog section {
+  width: 100%;
+  justify-content: space-between;
+}
+.blog section aside {
+  width: 21%;
+}
+.blog section aside .blogSearch input {
+  width: 100%;
+  height: 53px;
+  padding: 15px 0;
+  margin-bottom: 39px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #D8D8D8;
+  background: url("./../../Img/filterSearch.png") no-repeat center right;
+}
+.blog section aside .blogSearch input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #707070;
+}
+.blog section aside .blogSearch input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.blog section aside .blogCategories {
+  display: flex;
+  flex-direction: column;
+}
+.blog section aside .blogCategories h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 22px;
+}
+.blog section aside .blogCategories a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #707070;
+  margin-bottom: 10px;
+}
+.blog section .blogContent {
+  display: flex;
+  width: 76%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.blog section .blogContent .blogCard {
+  width: 45%;
+  margin-bottom: 64px;
+}
+.blog section .blogContent .blogCard img {
+  width: 100%;
+  margin-bottom: 22px;
+}
+.blog section .blogContent .blogCard .category {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #707070;
+  margin-bottom: 5px;
+}
+.blog section .blogContent .blogCard .title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 14px;
+}
+.blog section .blogContent .blogCard .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #707070;
+  margin-bottom: 24px;
+}
+.blog section .blogContent .blogCard .readLink {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #A18A68;
+}
 
+.article {
+  margin-top: 96px;
+  width: 100%;
+}
+.article h2 {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.article span {
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #7F7F7F;
+  margin-bottom: 39px;
+}
+.article span p {
+  display: inline;
+  color: #000000;
+}
+.article .mainPhoto {
+  width: 100%;
+  margin-bottom: 64px;
+}
+.article .articleText {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 670px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.article .photo {
+  display: block;
+  max-width: 670px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.article h3 {
+  display: block;
+  max-width: 670px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.article ul {
+  display: block;
+  max-width: 670px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.article ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
 
 /*# sourceMappingURL=blog.css.map */

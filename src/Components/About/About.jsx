@@ -1,79 +1,23 @@
 import "./about.css";
-import React, {useState} from "react";
+import about1 from "../../Img/About1.png"
+import about2 from "../../Img/About2.png"
 const About = () => {
-    const [articleList, setArticles] = useState([
-        {
-            "name": "Maria Silva",
-            "review": "Este livro é simplesmente incrível! A escrita é envolvente e a trama é cativante. Eu não conseguia parar de ler até chegar ao fim.",
-            "rate": 4,
-            "country": "Portugal",
-            "date": "Jun 25 2023"
-        },
-        {
-            "name": "Marco Rossi",
-            "review": "Questa compagnia di viaggi ha organizzato un'esperienza fantastica per me e la mia famiglia. Siamo stati molto soddisfatti del nostro tour e dei servizi offerti.",
-            "rate": 5,
-            "country": "Italy",
-            "date": "Dec 15 2022"
-        },
-        {
-            "name": " Katrin Schmidt",
-            "review": "Ich bin begeistert von diesem Restaurant! Das Essen war unglaublich lecker und der Service war hervorragend.",
-            "rate": 4,
-            "country": "Germany",
-            "date": "Sep 30 2022"
-        },
-        {
-            "name": "Jean-Pierre Dupont",
-            "review": "Je suis très satisfait de la qualité de ce produit. Il répond parfaitement à mes besoins et fonctionne très bien.",
-            "rate": 5,
-            "country": "France",
-            "date": "Jul 02 2022"
-        },
-        {
-            "name": "Ana Gómez",
-            "review": "Me encantó el servicio al cliente de esta tienda en línea. El personal fue muy amable y servicial, y el envío fue rápido y sin complicaciones.",
-            "rate": 4,
-            "country": "Spain",
-            "date": "Mar 18 2022"
-        }
-    ])
-
-    // const [current, setCurrent] = useState ('');
-    // const [name, setName] = useState ('');
-    // const [mail, setMail] = useState ('');
-    // const currentReviewHandler = (e) => {
-    //     let newValue = e.target.value;
-    //     setCurrent(newValue)
-    // }
-    //
-    // const currentNameHandler = (e) => {
-    //     let newValue = e.target.value;
-    //     setName(newValue)
-    // }
-    //
-    // const currentMailHandler = (e) => {
-    //     let newValue = e.target.value;
-    //     setMail(newValue)
-    // }
-    //
-    // let currentDate = new Date()
-    // const addNewReview = () => {
-    //     const newReviews = {
-    //         name: name,
-    //         review: current,
-    //         date: currentDate.toDateString,
-    //         rate: 5
-    //     }
-    //     setReviews([...list, newReviews]);
-    //     setName('')
-    //     setCurrent('')
-    // }
-    // let reviewsNumber = list.length;
 
     return (
         <div className="about">
-
+            <h2>About</h2>
+            <h4>Who we are and why we do what we do!</h4>
+            <p>Duis rutrum dictum libero quis rutrum. Etiam sed neque aliquam, sollicitudin ante a, gravida arcu. Nam fringilla molestie velit, eget pellentesque risus scelerisque a. Nam ac urna maximus, tempor magna et, placerat urna. Curabitur eu magna enim. Proin placerat tortor lacus, ac sodales lectus placerat quis. </p>
+            <h3>Top trends</h3>
+            <img src={about1} alt=""/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. </p>
+            <ul>
+                <li>consectetur adipiscing elit. Aliquam placerat</li>
+                <li> Lorem ipsum dolor sit amet consectetur</li>
+            </ul>
+            <h3>Produced with care</h3>
+            <img src={about2} alt=""/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendu.</p>
         </div>
     )
 }

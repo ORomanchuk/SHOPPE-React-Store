@@ -12,6 +12,8 @@ import NotFound from "./Components/NotFound/NotFound";
 import ProductPage from "./Components/ProductPage/ProductPage";
 import BlogPage from "./Components/Blog/Blog";
 import About from "./Components/About/About";
+import Catalog from "./Components/Catalog/Catalog";
+import Article from "./Components/Blog/article";
 
 function App() {
   return (
@@ -30,9 +32,12 @@ function App() {
               <Route path='/SHOPPE-React-Store/shipping-and-returns' element={<Shipping />} />
               <Route path='/SHOPPE-React-Store/privacy-policy' element={<Privacy />} />
               <Route path='/SHOPPE-React-Store/product/:productId' element={<ProductPage />} />
+              <Route path='/SHOPPE-React-Store/catalog/product/:productId' element={<ProductPage />} />
               <Route path='/SHOPPE-React-Store/blog' element={<BlogPage />} />
+              <Route path='/SHOPPE-React-Store/blog/article' element={<Article />} />
               <Route path='/SHOPPE-React-Store/about' element={<About />} />
               <Route path='/SHOPPE-React-Store/contacts' element={<Contacts />} />
+              <Route path='/SHOPPE-React-Store/catalog' element={<Catalog />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         <Footer/>
