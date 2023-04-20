@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SHOPPE-React-Store/static/css/main.f6d1e3bb.css",
-    "main.js": "/SHOPPE-React-Store/static/js/main.ad62ed2d.js",
+    "main.css": "/SHOPPE-React-Store/static/css/main.386588fa.css",
+    "main.js": "/SHOPPE-React-Store/static/js/main.08a8891e.js",
     "static/media/slider.png": "/SHOPPE-React-Store/static/media/slider.04dbcede7a9a04ebb500.png",
     "static/media/Article1.png": "/SHOPPE-React-Store/static/media/Article1.37ebceb8eb2faa7b38bb.png",
     "static/media/About2.png": "/SHOPPE-React-Store/static/media/About2.46110d1ba8282c51ea35.png",
@@ -11,16 +11,19 @@
     "static/media/blog3.png": "/SHOPPE-React-Store/static/media/blog3.2140b1b204c48a89c520.png",
     "static/media/blog4.png": "/SHOPPE-React-Store/static/media/blog4.2a643456cb67565d1586.png",
     "static/media/blog1.png": "/SHOPPE-React-Store/static/media/blog1.fbdc6fbbf53c84eb3731.png",
+    "static/media/jpg": "/SHOPPE-React-Store/static/media/36441502442545607.16c7499e73e9b31bcf87.jpg",
+    "static/media/BDAY-R.jpg": "/SHOPPE-React-Store/static/media/BDAY-R.7b85b34b647e570e4e6b.jpg",
+    "static/media/BDAY-L.jpg": "/SHOPPE-React-Store/static/media/BDAY-L.79ab99b99d8717284ff2.jpg",
     "static/media/slick.svg": "/SHOPPE-React-Store/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/SHOPPE-React-Store/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/SHOPPE-React-Store/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SHOPPE-React-Store/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SHOPPE-React-Store/index.html",
-    "main.f6d1e3bb.css.map": "/SHOPPE-React-Store/static/css/main.f6d1e3bb.css.map",
-    "main.ad62ed2d.js.map": "/SHOPPE-React-Store/static/js/main.ad62ed2d.js.map"
+    "main.386588fa.css.map": "/SHOPPE-React-Store/static/css/main.386588fa.css.map",
+    "main.08a8891e.js.map": "/SHOPPE-React-Store/static/js/main.08a8891e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6d1e3bb.css",
-    "static/js/main.ad62ed2d.js"
+    "static/css/main.386588fa.css",
+    "static/js/main.08a8891e.js"
   ]
 }
