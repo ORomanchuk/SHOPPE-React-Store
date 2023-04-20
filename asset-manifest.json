@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SHOPPE-React-Store/static/css/main.386588fa.css",
+    "main.css": "/SHOPPE-React-Store/static/css/main.765de897.css",
     "main.js": "/SHOPPE-React-Store/static/js/main.08a8891e.js",
     "static/media/slider.png": "/SHOPPE-React-Store/static/media/slider.04dbcede7a9a04ebb500.png",
     "static/media/Article1.png": "/SHOPPE-React-Store/static/media/Article1.37ebceb8eb2faa7b38bb.png",
@@ -19,11 +19,11 @@
     "static/media/slick.ttf": "/SHOPPE-React-Store/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SHOPPE-React-Store/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SHOPPE-React-Store/index.html",
-    "main.386588fa.css.map": "/SHOPPE-React-Store/static/css/main.386588fa.css.map",
+    "main.765de897.css.map": "/SHOPPE-React-Store/static/css/main.765de897.css.map",
     "main.08a8891e.js.map": "/SHOPPE-React-Store/static/js/main.08a8891e.js.map"
   },
   "entrypoints": [
-    "static/css/main.386588fa.css",
+    "static/css/main.765de897.css",
     "static/js/main.08a8891e.js"
   ]
 }
