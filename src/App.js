@@ -14,19 +14,16 @@ import BlogPage from "./Components/Blog/Blog";
 import About from "./Components/About/About";
 import Catalog from "./Components/Catalog/Catalog";
 import Article from "./Components/Blog/article";
+import Account from "./Components/Account/Account";
+import Cart from "./Components/Cart/Cart";
+import Remind from "./Components/Account/Remind";
 
 function App() {
   return (
       <div className="App">
           <Header/>
           <Routes>
-                <Route path='/SHOPPE-React-Store' element={<Main />} />
-                {/*<Route path='/' element={<Main />} />*/}
-                {/*<Route path='/contacts' element={<Contacts />} />*/}
-                {/*<Route path='/terms-of-service' element={<Terms />} />*/}
-                {/*<Route path='/shipping-and-returns' element={<Shipping />} />*/}
-                {/*<Route path='/privacy-policy' element={<Privacy />} />*/}
-                {/*<Route path='/product/:productId' element={<ProductPage />} />*/}
+              <Route path='/SHOPPE-React-Store' element={<Main />} />
               <Route path='/SHOPPE-React-Store/contacts' element={<Contacts />} />
               <Route path='/SHOPPE-React-Store/terms-of-service' element={<Terms />} />
               <Route path='/SHOPPE-React-Store/shipping-and-returns' element={<Shipping />} />
@@ -38,7 +35,10 @@ function App() {
               <Route path='/SHOPPE-React-Store/about' element={<About />} />
               <Route path='/SHOPPE-React-Store/contacts' element={<Contacts />} />
               <Route path='/SHOPPE-React-Store/catalog' element={<Catalog />} />
-            <Route path='*' element={<NotFound />} />
+              <Route path='/SHOPPE-React-Store/cart' element={<Cart />} />
+              <Route path='/SHOPPE-React-Store/account' element={<Account />} />
+              <Route path='/SHOPPE-React-Store/account/remind' element={<Remind />} />
+              <Route path='*' element={<NotFound />} />
           </Routes>
         <Footer/>
       </div>

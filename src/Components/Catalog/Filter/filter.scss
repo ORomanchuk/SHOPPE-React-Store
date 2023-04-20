@@ -56,3 +56,41 @@
     outline-offset: 0;
   }
 }
+
+.MuiBox-root {
+  width: 100%;
+}
+.sliderText {
+    justify-content: space-between;
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: #707070;
+    }
+    a {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: #A18A68;
+    }
+}
+.onSale {
+  justify-content: space-between;
+  margin: 40px 0;
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+  }
+}
+.inStock {
+  justify-content: space-between;
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+  }
+}

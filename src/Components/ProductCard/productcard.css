@@ -1,6 +1,9 @@
 .productsCard {
   width: 30%;
-  height: 35vw;
+  height: 28vw;
+  margin-bottom: 50px;
+  scale: 1;
+  transition: 0.5s;
 }
 .productsCard .productImage {
   position: relative;
@@ -81,6 +84,11 @@
   position: relative;
   bottom: 40px;
   margin: 0;
+}
+
+.productsCard:hover {
+  scale: 1.05;
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=productcard.css.map */

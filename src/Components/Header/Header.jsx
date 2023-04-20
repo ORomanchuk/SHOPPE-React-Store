@@ -19,8 +19,8 @@ const Header = () => {
                         <div className="searchBtn">
                             <input type="search" placeholder="Search" className="headerSearch"/>
                         </div>
-                        <a className="cart" href="#"><img src={cart} alt=""/></a>
-                        <a className="user" href="#"><img src={user} alt=""/></a>
+                        <Link to="/SHOPPE-React-Store/cart" className="cart"><img src={cart} alt=""/></Link>
+                        <Link to="/SHOPPE-React-Store/account" className="user"><img src={user} alt=""/></Link>
                     </div>
                 </div>
             </header>

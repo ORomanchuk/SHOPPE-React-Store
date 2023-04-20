@@ -17,6 +17,7 @@ section header .headerLogo {
   height: 40px;
 }
 section header .menu {
+  height: 40px;
   margin-top: 64px;
   justify-content: space-between;
 }
@@ -27,7 +28,7 @@ section header .menu .navigation {
 section header .menu .navigation a {
   font-weight: 400;
   font-size: 16px;
-  line-height: 56px;
+  line-height: 40px;
   color: #000000;
 }
 section header .menu hr {
@@ -48,7 +49,7 @@ section header .menu .userMenu a img {
 }
 section .headerSearch {
   width: 0;
-  height: 40px;
+  height: 20px;
   transition: 0.5s;
   background-color: transparent;
   border: none;

@@ -11,13 +11,7 @@ const Goods = () => {
             .then(response => setProducts(response.data));
     }, [])
 
-    // function setNewProducts(product) {
-    //     if (product.new === true) {
-    //         return product
-    //     }
-    // }
-    //
-    // let newProd = products.filter(setNewProducts)
+
 
     return (
         <div className="goods flexible">
