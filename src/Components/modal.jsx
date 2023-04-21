@@ -50,20 +50,20 @@ const ModalPage = () => {
                 contentLabel="Example Modal"
             >
                 <div className="modalWindow">
-                    <Confetti
-                        width={width * 0.5}
-                        height={height  * 0.8}
-                    />
-                    <img className="topImg" src={topImg} alt=""/>
-                    <div className="modalContent flexible">
-                        <img className="sideImg" src={leftImg} alt=""/>
-                        <div className="textArea">
-                            <p className="wishes">Thanks for being the React master and showing us the way to web development greatness.</p>
-                            <p className="wishes">May your tea always be hot,<br/>your React code always be clean,<br/>and your cat always be by your side.</p>
-                        </div>
+                    {/*<Confetti*/}
+                    {/*    width={width * 0.5}*/}
+                    {/*    height={height  * 0.8}*/}
+                    {/*/>*/}
+                    {/*<img className="topImg" src={topImg} alt=""/>*/}
+                    {/*<div className="modalContent flexible">*/}
+                    {/*    <img className="sideImg" src={leftImg} alt=""/>*/}
+                    {/*    <div className="textArea">*/}
+                    {/*        <p className="wishes">Thanks for being the React master and showing us the way to web development greatness.</p>*/}
+                    {/*        <p className="wishes">May your tea always be hot,<br/>your React code always be clean,<br/>and your cat always be by your side.</p>*/}
+                    {/*    </div>*/}
 
-                        <img className="sideImg" src={rightImg} alt=""/>
-                    </div>
+                    {/*    <img className="sideImg" src={rightImg} alt=""/>*/}
+                    {/*</div>*/}
                 </div>
 
             </Modal>
